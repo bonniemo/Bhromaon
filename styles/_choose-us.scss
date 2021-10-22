@@ -3,7 +3,7 @@
     width: 100%;
     min-height: 685px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     background-image: url(../images/Choose-us.png);
 }
 .choose-us__text {
@@ -12,7 +12,20 @@
     min-height: 342px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    padding-right: 4rem;
+}
+.choose__why {
+    max-width: 288px;
+    width: 100%;
+    min-height: 26px;
+    padding-bottom: 4rem;
+}
+.choose__p {
+    max-width: 560px;
+    width: 100%;
+    min-height: 158px;
+    padding-bottom: 2rem;
 }
 .choose-us__images {
     max-width: 440px;
@@ -27,6 +40,7 @@
     max-width: 350px;
     width: 100%;
     min-height: 220px;
+    padding-bottom: 1rem;
 }
 .choose-img-bottom {
     max-width: 350px;

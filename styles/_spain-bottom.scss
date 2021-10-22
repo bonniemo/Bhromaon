@@ -4,22 +4,35 @@
     min-height: 700px;
     background-image: url(../images/spain-bottom.png);
 }
+.spain-bottom__box {
+    max-width: 1450px;
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 .spain-bottom__text {
     max-width: 543px;
     width: 100%;
     height: 374px;
-    background-color: grey;
-    flex-grow: 0;
+    background-color: #232323;
     opacity: 0,5;
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    justify-self: center;
-    align-self: center;
+    justify-content: center;
+}
+.spain-bottom__h {
+    max-width: 80px;
+    width: 100%;
+    min-height: 26px;
+    padding-bottom: 2rem;
 }
 .spain-bottom-text__p {
     max-width: 508px;
     width: 100%;
     min-height: 78px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }

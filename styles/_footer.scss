@@ -1,0 +1,16 @@
+footer {
+    max-width: 1770px;
+    width: 100%;
+    min-height: 271px;
+    background-color: #232323;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;  
+}
+.footer__content {
+    max-width: 196px;
+    width: 100%;
+    min-height: 51px;
+    padding: 2rem;
+}

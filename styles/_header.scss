@@ -4,6 +4,7 @@
     min-height: 820px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     background-image: url(../images/header.png);
 }
 .header__content {
@@ -11,16 +12,31 @@
     width: 100%;
     min-height: 341px;
     display: flex;
-    flex-wrap: wrap;
-    justify-self: center;
-    align-self: center;
-    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .Bhromaon {
+    max-width: 372px;
+    width: 100%;
+    min-height: 76px;
+    padding-bottom: 3rem;
+}
+.bhromaon__h {
+    max-width: 342px;
+    width: 100%;
+    min-height: 26px;
+    padding: 1rem;
+}
+.header__content-travel {
     max-width: 345px;
     width: 100%;
-    min-height: 63px;
+    min-height: 26px;
+    font-family: $myFont-two;
+    font-size: 22px;
+    line-height: 26px;
     text-align: center;
+    padding-bottom: 4rem;
 }
 .form {
     max-width: 653px;
@@ -31,6 +47,12 @@
 input {
     max-width: 503px;
     width: 100%;
+    text-align: center;
+    font-family: $myFont-two;
+    font-size: 14px;
+    line-height: 26px;
+    color: #999999;
+
 }
 .btn {
     max-width: 153px;
@@ -59,4 +81,10 @@ a {
     text-decoration: none;
     color: #FFFFFF;
     margin-right: 2rem;
+}
+a:hover {
+    color: grey;
+}
+.scroll {
+    align-self: center;
 }
