@@ -1,3 +1,14 @@
+body {
+  color: #FFFFFF;
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 48px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
 h2 {
   font-family: "Aleo", serif;
   font-size: 36px;
@@ -8,6 +19,7 @@ h3 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
   line-height: 26px;
+  font-weight: 700;
 }
 
 h4 {
@@ -16,9 +28,224 @@ h4 {
   line-height: 26px;
 }
 
+.header__content-travel {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+}
+
 p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
   line-height: 26px;
+}
+
+.btn {
+  max-width: 228px;
+  width: 100%;
+  min-height: 63px;
+  background-color: #496BFE;
+  color: #FFFFFF;
+  border: none;
+}
+
+.header {
+  max-width: 1770px;
+  width: 100%;
+  min-height: 820px;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(../images/header.png);
+}
+
+.header__content {
+  max-width: 653px;
+  width: 100%;
+  min-height: 341px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: center;
+  align-self: center;
+  align-content: center;
+}
+
+.Bhromaon {
+  max-width: 345px;
+  width: 100%;
+  min-height: 63px;
+  text-align: center;
+}
+
+.form {
+  max-width: 653px;
+  width: 100%;
+  min-height: 63px;
+  display: flex;
+}
+
+input {
+  max-width: 503px;
+  width: 100%;
+}
+
+.btn {
+  max-width: 153px;
+  width: 100%;
+  min-height: 63px;
+}
+
+.nav-row {
+  max-width: 1770px;
+  width: 100%;
+  min-height: 83px;
+  background-color: #5474FD;
+  display: flex;
+  justify-content: space-evenly;
+  align-self: flex-end;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-right: 2rem;
+}
+
+.choose-us {
+  max-width: 1770px;
+  width: 100%;
+  min-height: 685px;
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url(../images/Choose-us.png);
+}
+
+.choose-us__text {
+  max-width: 562px;
+  width: 100%;
+  min-height: 342px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.choose-us__images {
+  max-width: 440px;
+  width: 100%;
+  min-height: 450px;
+  justify-self: flex-end;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.choose-img-top {
+  max-width: 350px;
+  width: 100%;
+  min-height: 220px;
+}
+
+.choose-img-bottom {
+  max-width: 350px;
+  width: 100%;
+  min-height: 220px;
+  align-self: flex-end;
+  justify-items: flex-end;
+}
+
+.spain-top {
+  max-width: 1770px;
+  width: 100%;
+  min-height: 700px;
+  background-image: url(../images/Spain-top.png);
+}
+
+.spain-top__text {
+  max-width: 543px;
+  width: 100%;
+  height: 374px;
+  background-color: grey;
+  opacity: 0, 5;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-self: center;
+  align-self: center;
+}
+
+.spain-top__text__p {
+  max-width: 508px;
+  width: 100%;
+  min-height: 78px;
+}
+
+.spain-bottom {
+  max-width: 1770px;
+  width: 100%;
+  min-height: 700px;
+  background-image: url(../images/spain-bottom.png);
+}
+
+.spain-bottom__text {
+  max-width: 543px;
+  width: 100%;
+  height: 374px;
+  background-color: grey;
+  flex-grow: 0;
+  opacity: 0, 5;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-self: center;
+  align-self: center;
+}
+
+.spain-bottom-text__p {
+  max-width: 508px;
+  width: 100%;
+  min-height: 78px;
+}
+
+.tourist-say {
+  max-width: 1770px;
+  width: 100%;
+  min-height: 731px;
+  background-image: url(../images/tourist-say-backdrop.png);
+}
+
+.tourist-say__head {
+  max-width: 390px;
+  width: 100%;
+  min-height: 26px;
+}
+
+.tourist-say__content {
+  max-width: 1110px;
+  width: 100%;
+  min-height: 287px;
+}
+
+.content__image {
+  max-width: 445px;
+  width: 100%;
+  min-height: 284px;
+}
+
+.content__text {
+  max-width: 668px;
+  width: 100%;
+  min-height: 287px;
 }
 /*# sourceMappingURL=index.css.map */

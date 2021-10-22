@@ -1,0 +1,24 @@
+.spain-top {
+    max-width: 1770px;
+    width: 100%;
+    min-height: 700px;
+    background-image: url(../images/Spain-top.png);
+}
+.spain-top__text {
+    max-width: 543px;
+    width: 100%;
+    height: 374px;
+    background-color: grey;
+    opacity: 0,5;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-self: center;
+    align-self: center;
+}
+.spain-top__text__p {
+    max-width: 508px;
+    width: 100%;
+    min-height: 78px;
+}

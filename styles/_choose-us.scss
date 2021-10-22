@@ -1,0 +1,37 @@
+.choose-us {
+    max-width: 1770px;
+    width: 100%;
+    min-height: 685px;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(../images/Choose-us.png);
+}
+.choose-us__text {
+    max-width: 562px;
+    width: 100%;
+    min-height: 342px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.choose-us__images {
+    max-width: 440px;
+    width: 100%;
+    min-height: 450px;
+    justify-self: flex-end;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.choose-img-top {
+    max-width: 350px;
+    width: 100%;
+    min-height: 220px;
+}
+.choose-img-bottom {
+    max-width: 350px;
+    width: 100%;
+    min-height: 220px;
+    align-self: flex-end;
+    justify-items: flex-end;
+}

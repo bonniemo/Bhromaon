@@ -2,6 +2,15 @@ $myFont-one: 'Aleo', serif;
 $myFont-two: 'Josefin Sans', sans-serif;
 $myFont-three: 'Roboto', sans-serif;
 
+body {
+    color: #FFFFFF;
+}
+h1 {
+    font-family: $myFont-two;
+    font-size: 48px;
+    line-height: 26px;
+    font-weight: 700;
+}
 h2 {
     font-family: $myFont-one;
     font-size: 36px;
@@ -11,14 +20,28 @@ h3 {
     font-family: $myFont-two;
     font-size: 24px;
     line-height: 26px;
+    font-weight: 700;
 }
 h4 {
     font-family: $myFont-two;
     font-size: 20px;
     line-height: 26px;
 }
+.header__content-travel {
+    font-family: $myFont-two;
+    font-size: 22px;
+    line-height: 26px;
+}
 p {
     font-family: $myFont-two;
     font-size: 16px;
     line-height: 26px;
+}
+.btn {
+    max-width: 228px;
+    width: 100%;
+    min-height: 63px;
+    background-color: #496BFE;
+    color: #FFFFFF;
+    border: none;
 }
