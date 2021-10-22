@@ -1,0 +1,24 @@
+$myFont-one: 'Aleo', serif;
+$myFont-two: 'Josefin Sans', sans-serif;
+$myFont-three: 'Roboto', sans-serif;
+
+h2 {
+    font-family: $myFont-one;
+    font-size: 36px;
+    line-height: 26px;
+}
+h3 {
+    font-family: $myFont-two;
+    font-size: 24px;
+    line-height: 26px;
+}
+h4 {
+    font-family: $myFont-two;
+    font-size: 20px;
+    line-height: 26px;
+}
+p {
+    font-family: $myFont-two;
+    font-size: 16px;
+    line-height: 26px;
+}
